@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {
+  margin: 0;
+}
+.qnote-header {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 100%;
+    height: 52px;
+    min-height: 52px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.qnote-header:after {
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    background-image: linear-gradient(to right, #aa1717, #ff1b1b);
+    content: "";
+}
+.qnote-header-logo {
+    height: 44px;
+    width:100%;
+    padding-top: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.iconContainer {
+  width:28px;
+  height:28px;
+  margin: 0px 12px 0px 24px;
+}
+
+.icon {
+    background:url(image/ic_logoicon.png) center no-repeat;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    min-height: 28px;
+}
+
+.title {
+  display: flex;
+  color: #b51212;
+  font-size: 24px;
+  line-height: 1.25;
+  font-family: 'Roboto', Helvetica, Arial, Sans-serif, Verdana, Tahoma;
+}
+.title .name {
+  font-weight: 900;
+}
+.title .station {
+  font-weight: 300;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 85vh;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 560px;
+  height: 375px;
+  margin-top:-80px;
+}
+.warning {
+  width: 150px;
+  height: 150px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  height: 150px;
+}
+.descriptionTitle{
+  width: 375px;
+  font-family: 'Verdana', Helvetica, Arial, Sans-serif, Verdana, Tahoma;
+  font-weight: 900;
+  Font-Size: 28px;
+  color: #c8191e;
+  margin-bottom: 25px;
+}
+.descriptionSubtitle{
+  width: 375px;
+  font-family: 'Verdana', Helvetica, Arial, Sans-serif, Verdana, Tahoma;
+  font-weight: 300;
+  Font-Size: 15px;
+  line-height: 25px;
+  color: #646464;
+}
+.footer {
+  border-top: 1px solid #ebebeb;
+  margin-left:24px;
+  margin-right:24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 8vh;
+}
+.copyRight{
+  margin-top:12px;
+  width: 100%;
+  font-family: 'Verdana', Helvetica, Arial, Sans-serif, Verdana, Tahoma;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-Size: 11px;
+  color: #8d8d8d;
+}
+</style>
+<body>
+    <!-- <div class="qnote-header"> -->
+    <div class="qnote-header">
+      <div class="qnote-header-logo">
+        <div class="iconContainer">
+          <img src="image/ic_logoicon.png" width="28" height="28">
+        </div>
+        <div class="title">
+          <div class="name">Notes</div>
+          <div class="station">Station 3</div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="info">
+        <div class="warning">
+            <img src="image/warning.svg" width="150" height="150">
+        </div>
+        <div class="description">
+          <div class="descriptionTitle">
+            System Maintenance
+          </div>
+          <div class="descriptionSubtitle">
+            Sorry! Notes Station 3 is under maintenance.
+            Please try again later.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="copyRight">
+        Notes Station is created by &nbsp;<a href="https://www.qnap.com/zh-tw/">QNAP System. Inc.</a>&nbsp; You are welcome to &nbsp;<a href="https://www.qnap.com/zh-tw/about/con_show.php?op=showone&cid=1">contact us.</a>
+      </div>
+    </div>
+</body>
+</html>

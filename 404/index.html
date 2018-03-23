@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Notes Station 3</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        #top {
+            width: 100%;
+            margin: 0 0 10px 0;
+        }
+
+        #topbar {
+            height: 10px;
+            display: flex;
+            display: -webkit-flex;
+            justify-content: flex-end;
+            flex-direction: column;
+            width: 100%;
+            background: linear-gradient(48deg, rgba(71, 0, 0, 0.4)28%, rgba(255, 0, 0, 1)75%);
+            background: -moz-linear-gradient(48deg, rgba(71, 0, 0, 0.4)28%, rgba(255, 0, 0, 1)75%);
+            background: -webkit-linear-gradient(48deg, rgba(71, 0, 0, 0.4)28%, rgba(255, 0, 0, 1)75%);
+            background: -o-linear-gradient(48deg, rgba(71, 0, 0, 0.4)28%, rgba(255, 0, 0, 1)75%);
+        }
+
+        #upper {
+            display: flex;
+            justify-content: flex-start;
+            margin: 0 0 0 10px;
+            /* justify-content: space-around; */
+        }
+
+        #gallery {
+            margin: 0 10px 0 0;
+
+        }
+
+        #notes {
+            font-size: 24px;
+            color: #b51212;
+            font-weight: 900;
+            line-height: 1.25;
+            font-family: 'Roboto', Helvetica, Arial, Sans-serif, Verdana, Tahoma;
+        }
+
+        #station3 {
+            font-size: 24px;
+            color: #b51212;
+            font-weight: 300;
+            line-height: 1.25;
+            font-family: 'Roboto', Helvetica, Arial, Sans-serif, Verdana, Tahoma;
+        }
+
+        #middle {
+            height: 85vh;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+
+        #middle_right {
+            width: 375px;
+            height: 150px;
+        }
+
+        #middle_right_top {
+            font-family: 'Verdana', Helvetica, Arial, Sans-serif, Verdana, Tahoma;
+            font-weight: 900;
+            color: #c8191e;
+            Font-Size: 28px;
+            margin-bottom: 25px;
+        }
+
+        #middle_right_bottom {
+            font-family: 'Verdana', Helvetica, Arial, Sans-serif, Verdana, Tahoma;
+            font-weight: 300;
+            color: #646464;
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        #middle_left {
+            width: 200px;
+        }
+
+        #warning {
+            width: 80%;
+        }
+
+        #padding {
+            /* padding-bottom:45px; */
+            /* padding:45px; */
+            padding: 0 10px;
+            /* background-color: rgb(235, 240, 241); */
+        }
+
+        #border {
+            border-top: 0.5px solid;
+            border-color: rgba(0, 0, 0, 0.144);
+            /* 0~1 */
+            /* text-align: right; */
+        }
+
+        #text {
+            display: flex;
+            justify-content: flex-end;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top" class="top">
+        <div id="topbar" class="topbar"></div>
+    </div>
+
+    <div id="upper">
+        <div id="gallery" class="gallery">
+            <img src="image/ic_logoicon.png">
+        </div>
+        <div id="notes" class="notes">
+            Notes
+        </div>
+        <div id="station3" class="station3">
+            Station 3
+        </div>
+    </div>
+
+    <div id="middle" class="middle">
+        <div id="middle_left" class="middle_left">
+            <img id="warning" src="image/warning.svg">
+        </div>
+
+        <div id="middle_right" class="middle_right">
+            <div id="middle_right_top" class="middle_right_top">
+                System Maintenance
+            </div>
+            <div id="middle_right_bottom" class="middle_right_bottom">
+                Sorry! Notes Station 3 is under maintenance. Please try again later.
+            </div>
+        </div>
+    </div>
+
+    <div id="padding" class="padding">
+        <div id="border" class="border">
+            <div id="text" class="text">
+                Notes Station is created by&nbsp;
+                <a href="https://www.qnap.com/zh-tw/">QNAP System. Inc.</a> You are welcome to&nbsp;
+                <a href="https://www.qnap.com/zh-tw/about/con_show.php?op=showone&cid=1">contact us.</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

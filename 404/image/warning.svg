@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="130" height="115" viewBox="0 0 130 115">
+  <defs>
+    <style>
+
+      .cls-2 {
+        fill: #ffffff;
+        filter: url(#gradient-overlay-1);
+      }
+    </style>
+
+    <filter id="gradient-overlay-1" filterUnits="userSpaceOnUse">
+      <feImage x="0.03125" y="0" preserveAspectRatio="none" width="130" height="115" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMTMwIiBoZWlnaHQ9IjExNSI+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjY1IiB5MT0iMTE1IiB4Mj0iNjUiIHkyPSIwIj4KICA8c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiNlYTZlMjMiLz4KICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNlZjk4MTYiLz4KPC9saW5lYXJHcmFkaWVudD4KPHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIvPjwvc3ZnPg=="/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+      <feBlend mode="normal" in2="SourceGraphic" result="gradientFill"/>
+    </filter>
+  </defs>
+  <path d="M128.290,93.853 C125.872,87.892 116.431,69.159 103.706,48.066 C88.893,23.509 75.715,6.323 73.341,3.763 C68.357,-1.274 62.011,-1.279 57.025,3.749 C54.756,5.852 40.970,22.713 26.017,47.500 C13.139,68.848 4.775,87.798 1.937,94.070 C-2.732,104.120 1.175,109.888 11.201,111.421 C17.187,112.436 39.076,115.000 65.176,115.000 C91.275,115.000 113.165,112.436 119.150,111.421 C129.068,109.888 132.408,103.408 128.290,93.853 ZM65.182,104.120 C59.085,104.120 56.030,101.214 56.030,95.362 C56.030,89.527 59.085,86.614 65.182,86.614 C71.269,86.614 74.321,89.527 74.321,95.362 C74.321,101.214 71.269,104.120 65.182,104.120 ZM78.044,37.715 C78.044,37.715 70.093,82.254 70.093,82.254 C70.093,82.254 60.306,82.254 60.306,82.254 C60.306,82.254 52.308,37.715 52.308,37.715 C52.188,36.973 52.111,36.199 52.111,35.463 C52.111,29.078 56.466,25.860 65.186,25.860 C73.899,25.860 78.241,29.040 78.241,35.400 C78.241,36.263 78.177,37.056 78.044,37.715 Z" id="path-1" class="cls-2" fill-rule="evenodd"/>
+</svg>
